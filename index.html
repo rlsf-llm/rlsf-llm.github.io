@@ -217,7 +217,7 @@
         <section class="hero teaser">
           <div class="container is-max-desktop">
             <div class="hero-body">
-              <img src="static/images/RLSFvRLHF.png" alt="Contrasting RLHF with RLSF" style="max-width: 80%; display: block; margin: auto;"/>
+              <img src="static/images/rlsf-rlhf.png" alt="Contrasting RLHF with RLSF" style="max-width: 80%; display: block; margin: auto;"/>
               <h2 class="subtitle has-text-justified">
                 Contrasting RLHF with RLSF: The image depicts two distinct fine-tuning paradigms. (Top) RLHF operates within an environment governed by a black-box reward model, typically offering scalar feedback. (Bottom) By contrast, the environment in RLSF leverages sound symbolic reasoning tools and also provides token-level feedback that is, in turn, based on poly-sized certificates produced by these symbolic tools.
               </h2>
@@ -228,7 +228,7 @@
         <section class="hero teaser">
           <div class="container is-max-desktop">
             <div class="hero-body">
-              <img src="static/images/Chem.png" alt="RLSF for Chemistry Tasks - Molecule Generation" style="max-width: 80%; display: block; margin: auto;"/>
+              <img src="static/images/chem.png" alt="RLSF for Chemistry Tasks - Molecule Generation" style="max-width: 80%; display: block; margin: auto;"/>
               <h2 class="subtitle has-text-justified">
                 RLSF for one of the chemistry tasks - Molecule Generation: In this illustration, the symbolic environment utilizes RDKit to generate a token-level reward vector as feedback based on the presence or absence of any syntactical errors. Moreover, for the semantic errors, we again use RDKit to check for the presence of the required functional groups mentioned in the input natural language description and penalize the entire generated molecule if it lacks the required functional groups. Each element in the reward vector corresponds to a token in the response, where erroneous tokens are penalized with a value of 0 and correct ones are assigned 1. The last element of the reward vector (corresponding to the &lt;EOS&gt; token) is 1 only if the entire response is correct, otherwise, it is 0.
               </h2>
