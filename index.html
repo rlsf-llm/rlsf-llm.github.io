@@ -3,7 +3,18 @@
 <head>
   <meta charset="utf-8">
   <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
-  <!-- Replace the content tag with appropriate information -->
+  <!-- Re          <p>
+            RLSF addresses key limitations of traditional reward signals by using symbolic reasoning tools such as:
+          </p>
+          <p>
+            1. <b>Solvers and Provers:</b> Provide formal verification and generate poly-sized certificates (e.g., proofs) that identify errors in model outputs.
+          </p>
+          <p>
+            2. <b>Domain-Specific Tools:</b> Chemistry simulators, compilers, and mathematical verification systems offer token-level guidance for precise error correction.
+          </p>
+          <p>
+            3. <b>Symbolic Validators:</b> Enable non-differentiable feedback without requiring gradient computation, making the approach broadly applicable across domains.
+          </p>ntent tag with appropriate information -->
   <meta name="description" content="DESCRIPTION META TAG">
   <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
   <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
@@ -52,38 +63,40 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">Academic Project Page</h1>
+            <h1 class="title is-1 publication-title">RLSF: Fine-tuning LLMs via Symbolic Feedback</h1>
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">First Author</a><sup>*</sup>,</span>
+                <a href="https://piyush-j.github.io/" target="_blank">Piyush Jha</a></span>
                 <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Second Author</a><sup>*</sup>,</span>
+                  <a href="https://sites.google.com/site/jprithwish" target="_blank">Prithwish Jana</a></span>
                   <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Third Author</a>
-                  </span>
+                    <a href="https://www.linkedin.com/in/pranavkrishnasuresh/" target="_blank">Pranavkrishna Suresh</a></span>
+                  <span class="author-block">
+                    <a href="https://www.linkedin.com/in/arnav-arora-8762171b4/" target="_blank">Arnav Arora</a></span>
+                  <span class="author-block">
+                    <a href="https://www.cc.gatech.edu/people/vijay-ganesh" target="_blank">Vijay Ganesh</a></span>
                   </div>
 
                   <div class="is-size-5 publication-authors">
-                    <span class="author-block">Institution Name<br>Conferance name and year</span>
-                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
+                    <span class="author-block">Georgia Tech<br>ECAI 2025</span>
                   </div>
 
                   <div class="column has-text-centered">
                     <div class="publication-links">
                          <!-- Arxiv PDF link -->
-                      <span class="link-block">
-                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                      <!-- <span class="link-block">
+                        <a href="https://arxiv.org/pdf/2405.16661" target="_blank"
                         class="external-link button is-normal is-rounded is-dark">
                         <span class="icon">
                           <i class="fas fa-file-pdf"></i>
                         </span>
                         <span>Paper</span>
                       </a>
-                    </span>
+                    </span> -->
 
                     <!-- Supplementary PDF link -->
-                    <span class="link-block">
+                    <!-- <span class="link-block">
                       <a href="static/pdfs/supplementary_material.pdf" target="_blank"
                       class="external-link button is-normal is-rounded is-dark">
                       <span class="icon">
@@ -91,10 +104,10 @@
                       </span>
                       <span>Supplementary</span>
                     </a>
-                  </span>
+                  </span> -->
 
                   <!-- Github link -->
-                  <span class="link-block">
+                  <!-- <span class="link-block">
                     <a href="https://github.com/YOUR REPO HERE" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
@@ -102,11 +115,11 @@
                     </span>
                     <span>Code</span>
                   </a>
-                </span>
+                </span> -->
 
                 <!-- ArXiv abstract Link -->
                 <span class="link-block">
-                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+                  <a href="https://arxiv.org/pdf/2405.16661" target="_blank"
                   class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                     <i class="ai ai-arxiv"></i>
@@ -122,145 +135,133 @@
   </div>
 </section>
 
-
-<!-- Teaser video-->
-<section class="hero teaser">
-  <div class="container is-max-desktop">
-    <div class="hero-body">
-      <video poster="" id="tree" autoplay controls muted loop height="100%">
-        <!-- Your video here -->
-        <source src="static/videos/banner_video.mp4"
-        type="video/mp4">
-      </video>
-      <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
-      </h2>
-    </div>
-  </div>
-</section>
-<!-- End teaser video -->
-
-<!-- Paper abstract -->
-<section class="section hero is-light">
+<!-- Paper abstract-->
+<section class="section">
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+            Large Language Models (LLMs) have transformed AI but often struggle with tasks that require domain-specific reasoning and logical alignment. Traditional fine-tuning methods do not leverage the vast amount of symbolic domain-knowledge available to us via symbolic reasoning tools (e.g., provers), and are further limited by sparse rewards and unreliable reward models. 
+            We introduce Reinforcement Learning via Symbolic Feedback (RLSF), a novel fine-tuning paradigm where symbolic reasoning tools (e.g., solvers, provers, and algebra systems) provide fine-grained feedback to LLMs. RLSF uses poly-sized certificates (e.g., proofs) generated by symbolic tools to identify and correct errors in model outputs, offering token-level guidance without requiring differentiable reasoning systems. This paradigm bridges the gap between symbolic reasoning and LLM fine-tuning, enabling precise alignment with domain-specific constraints while addressing key limitations of traditional reward signals. 
+            Via extensive evaluations, we show that our RLSF-based fine-tuning of LLMs outperforms traditional approaches on five different applications (that have some associated logical or domain constraints), namely, program synthesis from natural language pseudo-code to programming language, three chemistry tasks, and solving the Game of 24. A key takeaway is that fine-tuning via RLSF enables relatively smaller LLMs to significantly outperform closed-source models that are orders of magnitude larger.
           </p>
         </div>
       </div>
     </div>
   </div>
 </section>
-<!-- End paper abstract -->
+<!-- End paper abstract-->
 
-
-<!-- Image carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-       <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel1.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          First image description.
-        </h2>
+<!-- A section -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Key Results</h2>
+        <div class="content has-text-justified">
+          <p>
+            Our experiments demonstrate that RLSF consistently outperforms traditional fine-tuning approaches across five different applications with domain-specific constraints, showing that symbolic feedback enables more effective learning than conventional methods.
+          </p>
+          <ul>
+            <li>
+              <b>Program Synthesis:</b> RLSF achieves significant improvements in converting natural language pseudo-code to C++ programming language, demonstrating the effectiveness of symbolic feedback from compilers and static analysis tools.
+            </li>
+            <li>
+              <b>Chemistry Tasks:</b> RLSF shows superior performance across three chemistry applications: molecule generation, forward synthesis prediction, and retrosynthesis prediction, leveraging domain-specific chemical reasoning tools for feedback.
+            </li>
+            <li>
+              <b>Game of 24:</b> RLSF enables smaller LLMs to significantly outperform much larger closed-source models, demonstrating the power of symbolic feedback in mathematical reasoning tasks.
+            </li>
+            <li>
+              <b>Model Efficiency:</b> A key finding is that RLSF enables relatively smaller LLMs to achieve performance that <b>significantly exceeds</b> closed-source models that are <b>orders of magnitude larger</b>, highlighting the efficiency gains from symbolic feedback.
+            </li>
+          </ul>
+        </div>
       </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          Second image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-         Third image description.
-       </h2>
-     </div>
-     <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="MY ALT TEXT"/>
-      <h2 class="subtitle has-text-centered">
-        Fourth image description.
-      </h2>
     </div>
   </div>
-</div>
-</div>
 </section>
-<!-- End image carousel -->
-
-
-
-
-<!-- Youtube video -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <!-- Paper video. -->
-      <h2 class="title is-3">Video Presentation</h2>
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">RLSF: Reinforcement Learning via Symbolic Feedback</h2>
+        <div class="content has-text-justified">
+          <p>
+            <b>TLDR:</b> We introduce RLSF, a novel fine-tuning paradigm that leverages symbolic reasoning tools to provide fine-grained feedback to LLMs, enabling precise alignment with domain-specific constraints and significantly improving performance on tasks with logical or mathematical requirements.
+          </p>
+          <p>
+            RLSF addresses key limitations of traditional reward signals by using symbolic reasoning tools such as:
+          </p>
+          <p>
+            1. <b>Solvers and Provers:</b> Provide formal verification and generate poly-sized certificates (e.g., proofs) that identify errors in model outputs.
+          </p>
+          <p>
+            2. <b>Domain-Specific Tools:</b> Chemistry simulators, compilers, and mathematical verification systems offer token-level guidance for precise error correction.
+          </p>
+          <p>
+            3. <b>Symbolic Validators:</b> Enable non-differentiable feedback without requiring gradient computation, making the approach broadly applicable across domains.
+          </p>
+          <p>
+            Unlike traditional RLHF approaches that rely on sparse, scalar rewards from human preferences or simple reward models, RLSF leverages poly-sized certificates generated by symbolic tools to provide <b>token-level feedback</b>. This enables more precise learning by pinpointing specific areas that need improvement rather than providing only binary pass/fail signals.
+          </p>
           
-          <div class="publication-video">
-            <!-- Youtube embed code here -->
-            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+
+        <br>
+
+        <h2 class="title is-4">Framework Overview</h2>
+
+        <section class="hero teaser">
+          <div class="container is-max-desktop">
+            <div class="hero-body">
+              <img src="static/images/RLSFvRLHF.png" alt="Contrasting RLHF with RLSF" style="max-width: 80%; display: block; margin: auto;"/>
+              <h2 class="subtitle has-text-justified">
+                Contrasting RLHF with RLSF: The image depicts two distinct fine-tuning paradigms. (Top) RLHF operates within an environment governed by a black-box reward model, typically offering scalar feedback. (Bottom) By contrast, the environment in RLSF leverages sound symbolic reasoning tools and also provides token-level feedback that is, in turn, based on poly-sized certificates produced by these symbolic tools.
+              </h2>
+            </div>
           </div>
-        </div>
-      </div>
+        </section>
+
+        <section class="hero teaser">
+          <div class="container is-max-desktop">
+            <div class="hero-body">
+              <img src="static/images/Chem.png" alt="RLSF for Chemistry Tasks - Molecule Generation" style="max-width: 80%; display: block; margin: auto;"/>
+              <h2 class="subtitle has-text-justified">
+                RLSF for one of the chemistry tasks - Molecule Generation: In this illustration, the symbolic environment utilizes RDKit to generate a token-level reward vector as feedback based on the presence or absence of any syntactical errors. Moreover, for the semantic errors, we again use RDKit to check for the presence of the required functional groups mentioned in the input natural language description and penalize the entire generated molecule if it lacks the required functional groups. Each element in the reward vector corresponds to a token in the response, where erroneous tokens are penalized with a value of 0 and correct ones are assigned 1. The last element of the reward vector (corresponding to the &lt;EOS&gt; token) is 1 only if the entire response is correct, otherwise, it is 0.
+              </h2>
+            </div>
+          </div>
+        </section>
+
+        <div class="content has-text-justified">
+          <p>
+            RLSF bridges the gap between symbolic reasoning and LLM fine-tuning by using external symbolic tools to generate 
+            rich feedback signals. Unlike traditional RLHF approaches that rely on human preferences or simple reward models, 
+            RLSF leverages the vast amount of symbolic domain knowledge available through reasoning tools.
+          </p>
+          <p>
+            The key innovation is the use of poly-sized certificates—formal proofs or verification results—that provide 
+            detailed information about where and why errors occur in model outputs. This enables token-level corrections 
+            and more efficient learning compared to sparse reward signals.
+          </p>
+          <p>
+            Our extensive evaluations across five different applications demonstrate that RLSF enables smaller LLMs to 
+            outperform much larger closed-source models, highlighting the effectiveness of symbolic feedback in guiding 
+            the learning process toward domain-specific constraints and logical consistency.
+          </p>
+        </div>        <br>
+
+</div>
     </div>
-  </div>
-</section>
-<!-- End youtube video -->
-
-
-<!-- Video carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3">Another Carousel</h2>
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          <video poster="" id="video1" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel1.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video2">
-          <video poster="" id="video2" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel2.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video3">
-          <video poster="" id="video3" autoplay controls muted loop height="100%">\
-            <!-- Your video file here -->
-            <source src="static/videos/carousel3.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-      </div>
     </div>
-  </div>
 </section>
-<!-- End video carousel -->
-
-
-
-
-
+<!-- End a section -->
 
 <!-- Paper poster -->
-<section class="hero is-small is-light">
+<!-- <section class="hero is-small is-light">
   <div class="hero-body">
     <div class="container">
       <h2 class="title">Poster</h2>
@@ -270,15 +271,19 @@
         
       </div>
     </div>
-  </section>
+  </section> -->
 <!--End paper poster -->
-
 
 <!--BibTex citation -->
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
-      <h2 class="title">BibTeX</h2>
-      <pre><code>BibTex Code Here</code></pre>
+      <h2 class="title">Citation</h2>
+      <pre><code>@article{jha2024rlsf,
+  title={RLSF: Fine-tuning LLMs via Symbolic Feedback},
+  author={Jha, Piyush and Jana, Prithwish and Suresh, Pranavkrishna and Arora, Arnav and Ganesh, Vijay},
+  journal={28th European Conference on Artificial Intelligence; arXiv preprint arXiv:2405.16661},
+  year={2024}
+}</code></pre>
     </div>
 </section>
 <!--End BibTex citation -->
